@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Claculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="calculator">
+            <input type="text" name="" class="value" id="result">
+            <span onclick="clearValue()" class="num clear">C</span>
+            <span onclick="getValue('/')" class="num">/</span>
+            <span onclick="getValue('*')" class="num">*</span>
+            <span onclick="getValue(7)" class="num">7</span>
+            <span onclick="getValue(8)" class="num">8</span>
+            <span onclick="getValue(9)" class="num">9</span>
+            <span onclick="getValue('-')" class="num">-</span>
+            <span onclick="getValue(4)" class="num">4</span>
+            <span onclick="getValue(5)" class="num">5</span>
+            <span onclick="getValue(6)" class="num">6</span>
+            <span onclick="getValue('+')" class="num plus">+</span>
+            <span onclick="getValue(1)" class="num">1</span>
+            <span onclick="getValue(2)" class="num">2</span>
+            <span onclick="getValue(3)" class="num">3</span>
+            <span onclick="getValue(0)" class="num">0</span>
+            <span onclick="getValue(00)" class="num">00</span>
+            <span onclick="getValue('.')" class="num">.</span>
+            <span onclick="calculate()" class="num">=</span>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
